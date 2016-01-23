@@ -52,4 +52,11 @@ Your grade will be calculated based on the following factors:
 
 ## Week by Week
 
-### 1.
+### 1. 25 Jan
+
+* **Lecture** What is coding, and what is it not?
+* **Discussion** What is interactive web-based storytelling good for?
+* **Workshop** Create your first interactive web page
+
+
+* **Homework** Find an example of interactive web-based storytelling and prepare a three-minute critique to present to the class in week two. Focus on novel uses of web technologies and the way they succeed (or fail!) in enhancing the story. ‘Storytelling’ is deliberately vague – it could be a piece of journalism, advocacy, art, advertising... 

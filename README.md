@@ -32,7 +32,6 @@ Your grade will be calculated based on the following factors:
 * 5% – week 2 presentation
 * 20% – mid-semester assignment and presentation (in teams)
 * 45% – final assignment and presentation
-
 * 30% – based on homework, attendance, punctuality, blogging, and general attitude
 
 **Assignment** scores are based on creativity, originality, and technical execution. Strive to create interesting, thought-provoking, visually appealing projects that work well on mobile devices. (Don't worry, you'll learn how!) Plagiarism or any other form of academic dishonesty will be severely penalized.

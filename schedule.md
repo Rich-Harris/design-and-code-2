@@ -8,7 +8,7 @@
 
 ### Discussion
 
-* What is interactive web-based storytelling good for?
+* The possibilities of interactive digital media
 
 ### Workshop
 
@@ -17,6 +17,13 @@
 ### Homework
 
 * Find an example of interactive web-based storytelling and prepare a three-minute critique to present to the class in week two. Focus on novel uses of web technologies and the way they succeed (or fail!) in enhancing the story. ‘Storytelling’ is deliberately vague – it could be a piece of journalism, advocacy, art, advertising...
+* Read chapters 1-3 of Eloquent JavaScript and complete the printed comprehension worksheet
+
+### Recommended reading/watching
+
+* Neil Postman – Amusing Ourselves to Death
+* Paul Ford – [What is Code?](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
+* Bret Victor – [Media for Thinking the Unthinkable](http://worrydream.com/MediaForThinkingTheUnthinkable/)
 
 
 ## 2. 1 Feb – Dataviz

@@ -1,5 +1,7 @@
 # Schedule
 
+**This document is subject to change!**
+
 ## 1. 25 Jan – Hello World
 
 ### Lecture
@@ -108,6 +110,7 @@
 * Interacting with media – playing a video when it scrolls into view
 
 ### Preparation for final assignment
+
 * In week 10, you’ll present a story about you. We’ll spend the last part of the class trading ideas and scribbling down some thoughts.
 
 ### Homework
@@ -120,7 +123,7 @@ TK – Learn about geolocation, orientation APIs, microphone, camera, etc
 
 ## 8. 14 March – filters
 
-TK – using CSS filters (and canvas?) to control the look of images. Demonstrate techniques like masking. Create an interactive tilt-shift-o-meter
+TK – using CSS filters (and canvas?) to control the look of images. Discover techniques like masking. Create an interactive tilt-shift-o-meter
 
 ## 9. 21 March – Work on final assignment
 

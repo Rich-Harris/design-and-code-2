@@ -12,27 +12,17 @@ It is a *living document*, which means 'subject to change without notice'. Sign 
 * Place: DML A-13, ICP School 1114, ICP Midtown
 
 
-## Instructor
+## Staff
 
-TK
-
-
-## What this course is
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The instructor is Rich Harris, the teaching assistant is Jessie Wright-Mendoza.
 
 
 ## Coding club rules
 
 * **Help each other out.** We have a lot of material to get through, and a lot of new concepts to learn. It'll only work if we collaborate.
 * **Phones away.** Unless you're using it for classwork, your phone should be on silent and out of view. Bring your full attention.
-* **Ask lots of questions.** There are no stupid questions, only stupid answers. If you're stuck on something, other people probably are too, so do them a favour and raise your hand.
+* **Ask lots of questions.** There are no stupid questions, only stupid answers. If you're stuck on something, other people probably are too, so do them a favor and raise your hand.
 * **Show up!** We start at 6.30pm prompt, which means you should be there at 6.25pm. If you miss a class, you'll drop half a grade. If you're more than 20 minutes late, it's considered an absence.
-
-
-## Prerequisites
-
-TK – text editor, Chrome, GitHub account etc? Essential/recommended reading
 
 
 ## Grading
@@ -41,9 +31,9 @@ Your grade will be calculated based on the following factors:
 
 * 5% – week 2 presentation
 * 20% – mid-semester assignment and presentation (in teams)
-* 50% – final assignment and presentation
+* 45% – final assignment and presentation
 
-* 75% – based on homework, attendance, punctuality, attitude
+* 30% – based on homework, attendance, punctuality, blogging, and general attitude
 
 **Assignment** scores are based on creativity, originality, and technical execution. Strive to create interesting, thought-provoking, visually appealing projects that work well on mobile devices. (Don't worry, you'll learn how!) Plagiarism or any other form of academic dishonesty will be severely penalized.
 

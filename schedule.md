@@ -48,6 +48,11 @@
 * Begin preparing for week 5 assignment: In teams, think of three questions you want to ask New York City about itself that could be answered with data – then find the data. The questions could be about food, weather, crime, sanitation, demographics, politics, schools, or anything else, as long as it’s something you’ll be able to make a simple chart out of
 * Individual JavaScript comprehension worksheets
 
+### Recommended reading/watching
+
+* Edward Tufte – The Visual Display of Quantitative Information
+* Nigel Holmes – [Using humor to inform](https://www.youtube.com/watch?v=WB7DCEayj3w)
+
 
 ## 3. 8 Feb – Libraries
 

@@ -26,15 +26,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .big.label {
 	width: 6em;
+	/* this hides the big labels by default... the @media query
+	   below hides the small labels and shows the big ones */
 	display: none;
 }
 
 .bar {
+	/* we need this `position: relative` for the `position: absolute`
+	   to work in the next section */
 	position: relative;
 	height: 1.2em;
 	background-color: teal;
 }
 
+/* this is a 'pseudo-element'. Each element can have a ::before
+   and an ::after pseudo-element. In this case, we're using it
+   to add a label without creating extra markup in our JS */
 .bar::after {
 	content: attr(data-temp);
 	position: absolute;

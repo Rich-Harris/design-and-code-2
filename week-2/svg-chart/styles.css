@@ -21,7 +21,7 @@ polyline {
 
 text {
 	font-size: 12px;
-	color: #999;
+	fill: #999;
 }
 
 .month-label {

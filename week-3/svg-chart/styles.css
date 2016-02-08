@@ -1,0 +1,56 @@
+body {
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 300;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 1.4em;
+}
+
+svg {
+	width: 100%;
+	height: 400px;
+}
+
+polyline {
+	stroke: teal;
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	fill: none;
+}
+
+text {
+	font-size: 12px;
+	fill: #999;
+}
+
+.month-label {
+	text-anchor: middle;
+}
+
+.grid-line {
+	stroke: #999;
+	stroke-width: 1px;
+}
+
+.grid-label {
+	alignment-baseline: middle;
+	text-anchor: start;
+}
+
+@media (min-width: 20em) {
+	h1 {
+		font-size: 1.6em;
+	}
+}
+
+@media (min-width: 32em) {
+	h1 {
+		font-size: 1.8em;
+	}
+}

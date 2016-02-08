@@ -16,31 +16,9 @@ function createBar ( month ) {
 	$main.append( $container );
 }
 
-// load nyc.csv file
-$.get( 'data/nyc.csv', function ( csv ) {
-	var rows = csv.split( /\r?\n/ ).filter( function ( row ) {
-		return row !== '';
-	});
-
-	rows = rows.map( function ( string ) {
-		return string.split( ',' );
-	});
-
-	var headers = rows.shift();
-
-	var months = rows.map( function ( row ) {
-		var month = {};
-
-		headers.forEach( function ( header, i ) {
-			month[ header ] = row[i];
-		});
-
-		return month;
-	});
-
+// load nyc.json file
+$.get( 'data/nyc.json', function ( months ) {
 	months.forEach( function ( month ) {
 		createBar( month );
 	});
-
-	console.log( months );
 });

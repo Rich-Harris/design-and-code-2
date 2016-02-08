@@ -37,6 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	height: 1.2em;
 	background-color: teal;
+	transition: width 0.4s;
 }
 
 /* this is a 'pseudo-element'. Each element can have a ::before

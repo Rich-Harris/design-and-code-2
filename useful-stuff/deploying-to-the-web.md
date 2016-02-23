@@ -14,3 +14,5 @@ surge
 ```
 
 It will probably ask you for an email address etc. Once it's done, you'll be able to see your project at yoursubdomain.surge.sh (it will randomly assign yoursubdomain, or you can specify one like `nyc-poverty-map`).
+
+You can easily overwrite old projects (e.g. for deploying new versions), and you can unpublish them later if you want.

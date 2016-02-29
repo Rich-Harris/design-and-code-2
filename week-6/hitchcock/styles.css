@@ -21,7 +21,6 @@ header {
 	padding: 2em 1em;
 	perspective: 1000px;
 	text-align: center;
-	/*overflow-x: hidden;*/
 }
 
 header p {
@@ -35,7 +34,6 @@ header p {
 	left: 0;
 	top: 0;
 	background-color: #db0000;
-	/*transform: rotate3d(1,0.5,0,10deg) translate(30px,0);*/
 	transform: rotate(-0.5deg) skewX(-2deg);
 }
 
@@ -96,7 +94,6 @@ a {
 figure {
 	margin: 1em 0 2em 0;
 	padding: 0.5em;
-	/*background-color: #009293;*/
 }
 
 figure::before {
@@ -113,8 +110,6 @@ figure::before {
 figcaption {
 	font-style: italic;
 }
-
-
 
 video, audio {
 	width: 100%;
@@ -175,9 +170,6 @@ video, audio {
 
 	figure {
 		width: 480px;
-		/*position: absolute;
-		top: 0;
-		left: 40em;*/
 		float: left;
 		margin: 0.5em 2em 2em 0;
 	}

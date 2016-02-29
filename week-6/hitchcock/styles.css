@@ -6,7 +6,7 @@
 }
 
 body {
-	font-family: 'PT Serif';
+	font-family: 'Lato';
 	background-color: black;
 	color: rgb(220,220,220);
 	margin: 1em;
@@ -18,9 +18,14 @@ header {
 	text-align: center;
 	margin: 0 0 4em 0;
 	z-index: 2;
-	padding: 1em;
+	padding: 2em 1em;
 	perspective: 1000px;
+	text-align: center;
 	/*overflow-x: hidden;*/
+}
+
+header p {
+	text-align: center;
 }
 
 .header-background {
@@ -43,6 +48,7 @@ main {
 section {
 	position: relative;
 	margin: 6em auto 6em auto;
+	text-align: center;
 }
 
 h1, h2 {
@@ -54,6 +60,7 @@ h1, h2 {
 
 h1 {
 	font-size: 2em;
+	margin: 0 0 0.5em 0;
 }
 
 h2 {
@@ -78,10 +85,12 @@ p {
 	line-height: 1.5;
 	max-width: 640px;
 	margin: 0 0 1.5em 0;
+	text-align: left;
 }
 
 a {
-	color: rgb(220,220,255);
+	color: #009293;
+	font-weight: bold;
 }
 
 figure {
@@ -99,6 +108,10 @@ figure::before {
 	top: 0;
 	background-color: #009293;
 	transform: rotate(0.2deg) skewX(-1deg);
+}
+
+figcaption {
+	font-style: italic;
 }
 
 
@@ -121,21 +134,34 @@ video, audio {
 
 /* medium */
 @media (min-width: 480px) {
-
+	h1 {
+		font-size: 2.4em;
+	}
 }
 
 
 /* large */
 @media (min-width: 720px) {
+	h1 {
+		font-size: 2.8em;
+	}
 
+	section {
+		max-width: 600px;
+	}
 }
 
 
 /* extra large */
 @media (min-width: 960px) {
+	h1 {
+		font-size: 3.6em;
+	}
+
 	section {
 		width: 960px;
-
+		max-width: 960px;
+		text-align: left;
 	}
 
 	h2 {

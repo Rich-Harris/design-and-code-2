@@ -1,0 +1,164 @@
+@import './assets/fonts/hitchcock/stylesheet.css';
+
+* {
+	position: relative;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'PT Serif';
+	background-color: black;
+	color: rgb(220,220,220);
+	margin: 1em;
+	overflow-x: hidden;
+}
+
+header {
+	position: relative;
+	text-align: center;
+	margin: 0 0 4em 0;
+	z-index: 2;
+	padding: 1em;
+	perspective: 1000px;
+	/*overflow-x: hidden;*/
+}
+
+.header-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #db0000;
+	/*transform: rotate3d(1,0.5,0,10deg) translate(30px,0);*/
+	transform: rotate(-0.5deg) skewX(-2deg);
+}
+
+main {
+	position: relative;
+	z-index: 2;
+	margin: 0 0 10em 0;
+}
+
+section {
+	position: relative;
+	margin: 6em auto 6em auto;
+}
+
+h1, h2 {
+	font-family: 'Hitchcock';
+	font-weight: normal;
+	font-variant: small-caps;
+	letter-spacing: 0.05em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	margin: 0 auto 1.5em auto;
+}
+
+h2::before {
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #db0000;
+	transform: rotate(0.5deg) skewX(-2deg);
+}
+
+p {
+	line-height: 1.5;
+	max-width: 640px;
+	margin: 0 0 1.5em 0;
+}
+
+a {
+	color: rgb(220,220,255);
+}
+
+figure {
+	margin: 1em 0 2em 0;
+	padding: 0.5em;
+	/*background-color: #009293;*/
+}
+
+figure::before {
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #009293;
+	transform: rotate(0.2deg) skewX(-1deg);
+}
+
+
+
+video, audio {
+	width: 100%;
+}
+
+.background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	opacity: 0;
+	-webkit-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+/* medium */
+@media (min-width: 480px) {
+
+}
+
+
+/* large */
+@media (min-width: 720px) {
+
+}
+
+
+/* extra large */
+@media (min-width: 960px) {
+	section {
+		width: 960px;
+
+	}
+
+	h2 {
+		margin: 0 0 1.5em auto;
+		left: 320px;
+	}
+
+	p {
+		margin: 0 0 1.5em auto;
+	}
+
+	figure {
+		width: 480px;
+		/*position: absolute;
+		top: 0;
+		left: 40em;*/
+		float: left;
+		margin: 0.5em 2em 2em 0;
+	}
+
+	figure.inline {
+		width: 640px;
+		margin: 0 0 1.5em auto;
+		float: none;
+	}
+}

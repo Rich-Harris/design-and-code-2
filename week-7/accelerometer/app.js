@@ -28,7 +28,7 @@ window.addEventListener( 'deviceorientation', function ( event ) {
 	$debug.html( '<ul>' +
 		'<li class="' + ( event.alpha > 0 ? 'pos' : 'neg' ) + '">alpha: ' + event.alpha.toFixed(1) + '</li>' +
 		'<li class="' + ( event.beta > 0 ? 'pos' : 'neg' ) + '">beta: ' + event.beta.toFixed(1) + '</li>' +
-		'<li class="' + ( event.gamma > 0 ? 'pos' : 'neg' ) + '">gamma: ' + event.gamma.toFixed(1) + '</li>'
+		'<li class="' + ( event.gamma > 0 ? 'pos' : 'neg' ) + '">gamma: ' + event.gamma.toFixed(1) + '</li>' +
 	'</ul>' );
 
 	var radians = event.gamma / ( 180 / Math.PI );
@@ -56,12 +56,17 @@ var ball = {
 		ball.x += ball.vx;
 		ball.y += ball.vy;
 
-		if ( ball.x < bounds.x1 || ball.x > bounds.x2 ) ball.vx *= -0.95;
-		if ( ball.y < bounds.y1 || ball.y > bounds.y2 ) ball.vy *= -0.95;
+		if ( ball.x < bounds.x1 || ball.x > bounds.x2 ) ball.vx *= -1;
+		if ( ball.y < bounds.y1 || ball.y > bounds.y2 ) ball.vy *= -1;
 
 		ball.x = clamp( ball.x, bounds.x1, bounds.x2 );
 		ball.y = clamp( ball.y, bounds.y1, bounds.y2 );
 
+		// apply drag (not physically accurate!)
+		ball.vx *= 0.99;
+		ball.vy *= 0.99;
+
+		// apply gravity
 		ball.vx += gravity.x;
 		ball.vy += gravity.y;
 

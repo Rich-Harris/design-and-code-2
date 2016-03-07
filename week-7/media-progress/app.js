@@ -1,20 +1,37 @@
+/* ------------- */
+/*  JQUERY STUFF */
+/* ------------- */
 var $audio = $( 'audio' );
-var audio = $audio[0]; // raw DOM element
-
 var $background = $( '.background' ).hide();
-
 var $text = $( '.text' );
 
-var $button = $( 'button' );
-
-$button.on( 'click', function () {
-	audio.play();
-});
+/* ------------- */
+/*  SET UP AUDIO */
+/* ------------- */
+var audio = $audio[0]; // raw DOM element
 
 var running = false;
 
-var scale = linearScale([ 0, 1 ], [ 0.3, 1 ]);
+$audio.on( 'play', function () {
+	$button.fadeOut();
+	$background.fadeIn();
 
+	running = true;
+	loop();
+});
+
+$audio.on( 'pause', function () {
+	$button.fadeIn();
+	$background.fadeOut();
+
+	running = false;
+});
+
+
+/* ------------- */
+/*      LOOP     */
+/* ------------- */
+var scale = linearScale([ 0, 1 ], [ 0.3, 1 ]);
 var lastChunk = null;
 
 function loop () {
@@ -44,18 +61,3 @@ function loop () {
 		$text.text( chunk.text );
 	}
 }
-
-$audio.on( 'play', function () {
-	$button.fadeOut();
-	$background.fadeIn();
-
-	running = true;
-	loop();
-});
-
-$audio.on( 'pause', function () {
-	$button.fadeIn();
-	$background.fadeOut();
-
-	running = false;
-});

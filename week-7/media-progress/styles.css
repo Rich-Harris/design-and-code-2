@@ -50,23 +50,3 @@ audio {
 	left: 1em;
 	bottom: 2em;
 }
-
-.play {
-	position: absolute;
-	display: block;
-	width: calc(100% - 2em);
-	left: 1em;
-	bottom: 2em;
-	padding: 1em;
-	background: white;
-	background-position: right 1em top 50%;
-	background-size: 1.6em 1.6em;
-	border: none;
-	border-radius: 1em;
-	line-height: 1;
-	color: #333;
-	font-family: 'Helvetica Neue';
-	font-weight: 900;
-	font-size: 1em;
-	outline: none;
-}

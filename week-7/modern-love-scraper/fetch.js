@@ -1,37 +1,38 @@
+// `fs`, `path` and `url` are built-in modules
 var fs = require( 'fs' );
 var path = require( 'path' );
 var url = require( 'url' );
+
+// `request` was installed with `npm install request`,
+// and lives in the node_modules folder
 var request = require( 'request' );
-var http = require( 'http' );
-var cheerio = require( 'cheerio' );
 
 var links = require( './links.json' );
 
-function concat ( response, callback ) {
-	var body = '';
-
-	response.on( 'data', function ( chunk ) {
-		body += chunk;
-	});
-
-	response.on( 'end', function () {
-		callback( body );
-	});
-}
-
+// This function fetches one link at a time, then calls
+// itself at the end
 function next () {
-	var link = links.shift();
+	var link = links.shift(); // takes the first member of the array
 
 	if ( !link ) {
 		console.log( 'all done' );
 		return;
 	}
 
+	// we can't have `/` in filenames, so we replace them
+	// using a regular expression
 	var file = link.replace( 'http://www.nytimes.com/', '' ).replace( /\//g, '_' );
+
+	// `dest` will point to the exact location on disk
+	// where we want to save the file
 	var dest = path.join( __dirname, 'pages', file );
 
+	// `fs.stat` gives us information about a file – in this
+	// case, we want to know if it already exists
 	fs.stat( dest, function ( err, result ) {
 		if ( !err ) {
+			// there was no error – that means the file already
+			// exists, so we don't need to fetch it again
 			console.log( 'skipping', link );
 			next();
 			return;
@@ -43,13 +44,13 @@ function next () {
 
 		var options = {
 			uri: link,
-			jar: request.jar()
+			jar: request.jar() // this allows the request module to use cookies
 		};
 
-		request( options )
-			.setMaxListeners( 50 )
-			.pipe( fs.createWriteStream( dest ) )
-			.on( 'close', next );
+		request( options, function ( err, response, body ) {
+			fs.writeFileSync( dest, body );
+			next();
+		});
 	});
 }
 

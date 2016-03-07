@@ -13,7 +13,6 @@ var audio = $audio[0]; // raw DOM element
 var running = false;
 
 $audio.on( 'play', function () {
-	$button.fadeOut();
 	$background.fadeIn();
 
 	running = true;
@@ -21,7 +20,6 @@ $audio.on( 'play', function () {
 });
 
 $audio.on( 'pause', function () {
-	$button.fadeIn();
 	$background.fadeOut();
 
 	running = false;
@@ -56,7 +54,6 @@ function loop () {
 	}
 
 	if ( chunk !== lastChunk ) {
-		console.log( 'chunk', chunk )
 		lastChunk = chunk;
 		$text.text( chunk.text );
 	}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.69.0"
+  }
+}

@@ -32,6 +32,10 @@
 
 * [Hammer](http://hammerjs.github.io/) – for detecting e.g. swipe gestures on touchscreen
 
+## Image manipulation
+
+* [Caman](http://camanjs.com/) – uses the `<canvas>` element to allow you to manipulate photographs and apply filters
+
 ## General app development
 
 * [Ractive](http://www.ractivejs.org/) – what we use at the Guardian (full disclosure: I wrote it!)

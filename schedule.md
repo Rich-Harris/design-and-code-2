@@ -2,7 +2,7 @@
 
 **This document is subject to change!**
 
-## 1. 25 Jan – Hello World
+## 1. 23 Jan – Hello World
 
 ### Lecture
 
@@ -22,7 +22,7 @@
 * Read chapters 1-3 of Eloquent JavaScript and complete the printed comprehension worksheet
 
 
-## 2. 1 Feb – Dataviz
+## 2. 30 Jan – Dataviz
 
 ### Presentations
 
@@ -43,7 +43,7 @@
 * Individual JavaScript comprehension worksheets
 
 
-## 3. 8 Feb – Libraries
+## 3. 6 Feb – Libraries
 
 ### Lecture
 
@@ -60,7 +60,7 @@
 * Individual JavaScript comprehension worksheets
 
 
-## 4. 15 Feb – Interface
+## 4. 13 Feb – Interface
 
 ### Lecture and discussion
 
@@ -76,7 +76,7 @@
 * Complete week 5 assignment and prepare presentations for the following week
 
 
-## 5. 22 Feb – Reveal
+## 5. 20 Feb – Reveal
 
 ### Workshop
 
@@ -95,7 +95,7 @@
 * Individual JavaScript comprehension worksheets
 
 
-## 6. 29 Feb – Multimedia and the web
+## 6. 27 Feb – Multimedia and the web
 
 ### Workshop
 
@@ -111,15 +111,15 @@
 
 * Create a storyboard for your final assignment
 
-## 7. 7 March – mobile device APIs
+## 7. 6 March – mobile device APIs
 
 TK – Learn about geolocation, orientation APIs, microphone, camera, etc
 
-## 8. 14 March – filters
+## 8. 13 March – filters
 
 TK – using CSS filters (and canvas?) to control the look of images. Discover techniques like masking. Create an interactive tilt-shift-o-meter
 
-## 9. 21 March – Work on final assignment
+## 9. 20 March – Work on final assignment
 
 
-## 10. 28 March – Final presentations!
+## 10. 27 March – Final presentations!

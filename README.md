@@ -7,14 +7,14 @@ It is a *living document*, which means 'subject to change without notice'. Sign 
 
 ## Logistics
 
-* Code: 16WNMDC100
-* Dates: 25 January 2016 – March 28 2016, meeting every Monday 6.30pm – 9.30pm
+* Code: 17WNMDC100
+* Dates: 23 January 2016 – March 27 2016, meeting every Monday 6.30pm – 9.30pm
 * Place: DML A-13, ICP School 1114, ICP Midtown
 
 
 ## Staff
 
-The instructor is Rich Harris, the teaching assistant is Jessie Wright-Mendoza.
+The instructor is Rich Harris, the teaching assistant is Cyndie Burkhardt.
 
 
 ## Coding club rules

@@ -1,0 +1,38 @@
+body {
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 300;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+.container {
+	padding: 0.5em;
+	padding-left: 4em;
+	border-bottom: 1px solid #eee;
+}
+
+.label {
+	position: absolute;
+	left: 0.5em;
+	text-align: right;
+	width: 3em;
+}
+
+.bar {
+	/* we need this `position: relative` for the `position: absolute`
+	   to work in the next section */
+	position: relative;
+	height: 1.2em;
+	background-color: teal;
+}
+
+.value {
+	position: absolute;
+	top: 0.2em;
+	right: 0.2em;
+	color: white;
+	font-size: 0.8em;
+}

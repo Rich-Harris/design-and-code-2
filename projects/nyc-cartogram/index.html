@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+
+		<!-- this makes the page mobile-friendly -->
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+		<!-- this controls what appears in the browser tab -->
+		<title>title goes here</title>
+
+		<!-- this loads the styles.css file... -->
+		<link rel='stylesheet' href='styles.css'>
+	</head>
+
+	<body>
+		<h1>title goes here</h1>
+
+		<svg>
+			<g class='boroughs'>
+				<!-- map will go here -->
+			</g>
+		</svg>
+
+		<!-- external libraries — d3 and topojson -->
+		<script src='https://unpkg.com/d3@3'></script>
+		<script src='https://unpkg.com/topojson@1'></script>
+
+		<!-- the d3 plugin that makes cartograms possible -->
+		<script src='cartogram.js'></script>
+
+		<!-- the geometry of the 5 boroughs, in topojson format -->
+		<script src='topology.js'></script>
+
+		<!-- the app -->
+		<script src='app.js'></script>
+	</body>
+</html>

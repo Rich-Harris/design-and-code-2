@@ -11,23 +11,29 @@
 
 		<!-- this loads the styles.css file... -->
 		<link rel='stylesheet' href='styles.css'>
-		<link href='https://fonts.googleapis.com/css?family=Creepster|Seaweed+Script|Sail|Flamenco' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
-
-
 		<main>
 			<div class='background'></div>
-			<div class='text'></div>
+			<div class='text'>
+				<h1>They drew their plans</h1>
+			</div>
 
 			<audio src='files/the-eve-of-war.mp3' controls></audio>
 		</main>
 
-		<script src='vendor/jquery-2.2.0.min.js'></script>
-		<script src='vendor/eases.js'></script>
+		<!-- library functions we'll need -->
+		<script src='https://unpkg.com/jquery'></script>
+		<script src='https://unpkg.com/eases-jsnext'></script>
 		<script src='linearScale.js'></script>
+
+		<!-- an array of objects containing the subtitles,
+		     and the times they need to appear at -->
 		<script src='script.js'></script>
+
+		<!-- the app itself -->
 		<script src='app.js'></script>
 	</body>
 </html>

@@ -1,16 +1,9 @@
 function linearScale ( domain, range ) {
-	var d0 = domain[0],
-		r0 = range[0],
-		multiplier = ( range[1] - r0 ) / ( domain[1] - d0 ),
-		scale;
+	var d0 = domain[0];
+	var r0 = range[0];
+	var multiplier = ( range[1] - r0 ) / ( domain[1] - d0 );
 
-	scale = function ( num ) {
+	return function ( num ) {
 		return r0 + ( num - d0 ) * multiplier;
 	};
-
-	scale.inverse = function () {
-		return linearScale( range, domain );
-	};
-
-	return scale;
 }

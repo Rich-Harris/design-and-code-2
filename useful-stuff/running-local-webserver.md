@@ -11,7 +11,7 @@ On a Mac, you need to open Terminal.app. The easiest way is to open Spotlight (C
 
 ## `cd` into your project directory
 
-In the terminal, you need to **c**hange **d**irectory to the one that contains your folder. A quick way to do this is to type `cd ` (with the space!) and drag the directory from Finder into the terminal window.
+In the terminal, you need to **c**hange **d**irectory to the one that contains your folder. A quick way to do this is to type `cd&nbsp;` (with the space!) and drag the directory from Finder into the terminal window.
 
 
 ## Option 1 — use `http-server`
